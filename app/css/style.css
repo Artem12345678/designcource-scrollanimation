@@ -1,0 +1,40 @@
+#abovethefold {
+	background-color: #1e2732;
+	height: 760px;
+	text-align: center;
+	color:#fff;
+}
+
+h1 {
+	font-family: 'Source Sans Pro';
+	font-weight:300;
+	font-size:3em;
+	padding-top:325px;
+}
+
+#scroll {
+	margin-top:200px;
+	margin-bottom:200px;
+	text-align: center;
+}
+
+#scroll img {
+	position:relative;
+}
+
+.animate {
+	transition: 2s ease-in-out;
+}
+
+#phone {
+	z-index: 2;
+}
+
+#phone.animate {
+	transform: translate(5em, 0);
+}
+
+#tablet.animate {
+	transform: translate(-10em, 0);
+}
+
